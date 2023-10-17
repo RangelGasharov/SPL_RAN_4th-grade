@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=eDIj5LuIL4A - OpenCV Overview
+https://www.youtube.com/watch?v=5cg_yggtkso - Face Detection
