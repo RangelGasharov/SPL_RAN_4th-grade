@@ -44,4 +44,7 @@ while True:
     GPIO.output(PIN_RED, True)
     time.sleep(2)
 
+    GPIO.output(PIN_GREEN, False)
+    GPIO.output(PIN_YELLOW, True)
+
     GPIO.output(PIN_YELLOW, False)
