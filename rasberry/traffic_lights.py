@@ -33,7 +33,12 @@ while True:
     GPIO.output(PIN_RED, False)
     GPIO.output(PIN_YELLOW, False)
     GPIO.output(PIN_GREEN, True)
-    time.sleep(5)
+    time.sleep(3)
+    for i in range(0, 3):
+        GPIO.output(PIN_GREEN, False)
+        time.sleep(0.5)
+        GPIO.output(PIN_GREEN, True)
+        time.sleep(0.5)
 
     GPIO.output(PIN_GREEN, False)
     GPIO.output(PIN_RED, True)
