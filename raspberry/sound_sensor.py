@@ -11,5 +11,5 @@ def setup():
 setup()
 
 while True:
-    print(GPIO.INPUT(18))
+    print(GPIO.input(18))
     time.sleep(0.25)
